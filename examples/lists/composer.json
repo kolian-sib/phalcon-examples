@@ -1,0 +1,6 @@
+{
+  "require": {
+    "mattdanger/volt-helpers": "dev-master",
+    "mattdanger/phalcon-table-sort": "dev-master"
+  }
+}

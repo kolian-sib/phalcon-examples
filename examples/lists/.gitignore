@@ -1,0 +1,5 @@
+app/cache/
+app/config/config.php
+.DS_Store
+vendor
+composer.lock
