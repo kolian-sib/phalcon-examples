@@ -3,14 +3,19 @@ Sorted and paginated lists
 
 ## Requirements
 
+* PHP >= 5.5
+* MySQL
 * Phalcon v1.4.x
 * Composer
 
 
 ## Installing
 
-* Configure your web server
-* `cd examples/lists && composer install`
+* Configure your web server to serve `examples/lists`
+* `cd examples/lists` 
+* `composer install`
+* `gunzip database.sql.gz` and import into MySQL
+* `cp app/config/config-sample.php app/config/config.php` and configure database settings
 
 ## Usage
 
