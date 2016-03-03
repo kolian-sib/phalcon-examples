@@ -2,9 +2,15 @@
 
 <table class="table table-striped">
   <thead>
-    <th><a href="?{{ sortLink('r.id') }}">ID</a></th>
-    <th><a href="?{{ sortLink('r.name') }}">Name</a></th>
-    <th><a href="?{{ sortLink('r.created') }}">Created</a></th>
+    <th>
+      <a href="?{{ sortLink('r.id') }}">ID</a> {{ sortIcon('r.id') }}
+    </th>
+    <th>
+      <a href="?{{ sortLink('r.name') }}">Name</a> {{ sortIcon('r.name') }}
+    </th>
+    <th>
+      <a href="?{{ sortLink('r.created') }}">Created</a> {{ sortIcon('r.created') }}
+    </th>
   </thead>
 
   <tbody>
